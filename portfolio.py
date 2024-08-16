@@ -1,9 +1,9 @@
 import streamlit as st
 import google.generativeai as genai
 
-api_key = st.secrets["GOOGLE_API_KEY"]
+#api_key = st.secrets["GOOGLE_API_KEY"]
 
-genai.configure(api_key= "api_key")
+#genai.configure(api_key= "api_key")
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
@@ -55,8 +55,8 @@ with col2:
 
 st.write(" ")
 
-st.title("My Setup")
-st.image("images/setup.jpg")
+#st.title("My Setup")
+#st.image("images/setup.jpg")
 
 st.write(" ")
 st.title("")
@@ -66,7 +66,7 @@ st.slider("CSS", 0,100,80)
 st.slider("Wordpress", 0,100,70)
 st.slider("Bootstrap", 0,100,80)
 st.slider("Javascript", 0,100,60)
-st.slider("Pyhthon", 0,100,60)
+st.slider("Python", 0,100,60)
 
 st.write(" ")
 st.file_uploader("Upload a file")
@@ -78,17 +78,16 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.image("images/Screenshot 2024-05-15 174529.png")
-    st.image("images/Screenshot 2024-07-08 234916.png")
-    st.image("images/project_img.png")
+    
 
 with col2:
-    st.image("images/Screenshot 2024-05-15 174529.png")
+    
     st.image("images/Screenshot 2024-07-08 234916.png")
-    st.image("images/project_img.png")
+   
+
 
 with col3:
-    st.image("images/Screenshot 2024-05-15 174529.png")
-    st.image("images/myimage.png")
+   
     st.image("images/project_img.png")
 
 st.write(" ")
