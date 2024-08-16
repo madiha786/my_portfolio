@@ -65,7 +65,7 @@ st.slider("HTML", 0,100,80)
 st.slider("CSS", 0,100,80)
 st.slider("Wordpress", 0,100,70)
 st.slider("Bootstrap", 0,100,80)
-st.slider("Javascript", 0,100,60)
+st.slider("JavaScript", 0,100,60)
 st.slider("Python", 0,100,60)
 
 st.write(" ")
